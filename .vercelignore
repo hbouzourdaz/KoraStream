@@ -1,0 +1,7 @@
+.env
+/install.sql
+/database.sqlite
+/node_modules/
+/.git/
+/vendor/
+/README.md

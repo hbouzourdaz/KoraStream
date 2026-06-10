@@ -1,0 +1,40 @@
+/* KoraStream Custom Styles & Mobile Helpers */
+
+/* Pulse glow for live matches */
+@keyframes pulse-glow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.8;
+    box-shadow: 0 0 8px 4px rgba(16, 185, 129, 0);
+  }
+}
+
+.live-glow {
+  animation: pulse-glow 2s infinite ease-in-out;
+}
+
+/* Hide scrollbars for sliders */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Active Bottom Nav Indicator transition */
+.nav-pill {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Glassmorphism details */
+.glass-card {
+  background: rgba(24, 30, 49, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
