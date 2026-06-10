@@ -1,5 +1,9 @@
 # KoraStream — Live Match & Sports Streaming Platform
 
+**by Hakim BOUZOURDAZ**
+
+[View Full Documentation](DOCUMENTATION.md)
+
 **KoraStream** is a Mobile-First Live Football/Sports Match Streaming Web App designed to look, feel, and behave like a native Android Mobile Application (Material Design 3, Mobile-First, PWA-Ready). It includes a complete Admin Dashboard for backend management.
 
 ## Features

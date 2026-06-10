@@ -1,4 +1,5 @@
 # KoraStream Documentation
+**by Hakim BOUZOURDAZ**
 
 Welcome to the comprehensive documentation for **KoraStream**, a Mobile-First Live Football and Sports Streaming Web Application. This document provides developers and administrators with everything they need to know to install, manage, and extend the platform.
 
